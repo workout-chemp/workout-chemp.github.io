@@ -67,7 +67,7 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #gallary div[class*='col-']{padding:2.5px}
 #gallary img{border-radius:4px}
 #gallary img:hover{opacity:.8;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}
-#gallary a{font-weight:500;color:#2825d6}
+#gallary a,#sponsors .sponsors-link{font-weight:500;color:#2825d6}
 #sponsors{text-align:center;background-color:#f3f3f3}
 #sponsors .sponsors-logo{vertical-align:middle;width:25%;height:100px;display:table-cell}
 #sponsors .sponsors-logo img{margin:0 auto}
