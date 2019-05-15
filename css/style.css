@@ -1,0 +1,119 @@
+@font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-Light.ttf);font-weight:400}
+@font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-Bold.ttf);font-weight:500}
+@font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-ExtraBold.ttf);font-weight:600}
+body{height:100%;font-family:'Gilroy',sans-serif;font-weight:400;font-size:18px;color:#111;overflow-x:hidden}
+.title{font-size:50px;font-weight:700;text-transform:uppercase;text-align:center;margin-top:0;margin-bottom:70px;position:relative}
+#counter .title:before,#about .title:before,#visit .title:before,#gallary .title:before,#sponsors .title:before,#program .title:before,#contact .title:before{position:absolute;content:"";width:100px;height:3px;bottom:-20px;background:#e74c3c;left:50%;margin-left:-50px}
+.btn{background-color:#2825d6;border:2px solid #2825d6;font-size:18px;color:#fff;border-radius:4px;padding:12px 30px}
+.btn:hover,.btn:active,.btn:focus{color:#fff;background-color:#1512c7;border:2px solid #1512c7}
+.btn-2{background-color:transparent;color:#fff;border:2px solid #fff}
+.btn-2:hover,.btn-2:active,.btn-2:focus{background-color:transparent;color:#fff;border:2px solid #fff;background-color:#ffffff29}
+header{position:relative;text-align:center;width:100%;height:100vh;color:#fff;background:url(../img/734683745683.jpg) top center fixed;background-size:cover}
+header .bg-overley{position:absolute;width:100%;height:100vh;top:0;left:0;background:rgba(0, 0, 0, 0.6) url(../img/pattern.png) 0 0 repeat}
+header .content-wrapper{padding-left:0;display:table;position:absolute;top:0;left:0;width:100%;height:100vh}
+header .content-wrapper .content{text-align:center;display:table-cell;width:100%;height:100%;vertical-align:middle}
+header .d-t-l{margin-top:70px}
+header .d-t-l span{font-size:20px;margin-right:20px}
+header span:last-child{margin-right:0}
+header .year{position:relative;max-width:1000px;margin:0 auto;padding-bottom:15px}
+header .year-2019{font-size:40px;font-weight:500;position:absolute;top:-55px;right:103px;border-radius:4px;line-height:50px;padding:0 9px;transform:rotate(-10deg);background-color:#2825d6;box-shadow:1px 0 10px rgba(0,0,0,.5)}
+header h1{text-transform:uppercase;font-size:65px;font-weight:600;line-height:85px;margin-bottom:20px}
+header h1 .label{background-color:#e74c3c;padding:0 10px;font-size:inherit;font-weight:600;border-radius:4px}
+header .btn{margin-right:20px}
+header .btn-video{margin:30px 0 40px}
+header .play-btn{width:94px;height:94px;background:radial-gradient(#e74c3c 50%,rgba(101,111,150,0.15) 52%);border-radius:50%;display:block;position:relative;overflow:hidden;margin:0 auto}
+header .play-btn::after{content:'';position:absolute;left:50%;top:50%;-webkit-transform:translateX(-40%) translateY(-50%);transform:translateX(-40%) translateY(-50%);width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:15px solid #fff;z-index:100;transition:all 400ms cubic-bezier(0.55,0.055,0.675,0.19)}
+header .play-btn:before{content:'';position:absolute;width:120px;height:120px;-webkit-animation-delay:0;animation-delay:0;-webkit-animation:pulsate-btn 2s;animation:pulsate-btn 2s;-webkit-animation-direction:forwards;animation-direction:forwards;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:steps;animation-timing-function:steps;opacity:1;border-radius:50%;border:2px solid rgba(163,163,163,0.4);top:-15%;left:-15%;background:rgba(198,16,0,0)}
+header .play-btn:hover::after{border-left:15px solid #e74c3c;-webkit-transform:scale(20);transform:scale(20)}
+header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-webkit-transform:translateX(-40%) translateY(-50%);transform:translateX(-40%) translateY(-50%);width:0;height:0;border:none;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:15px solid #fff;z-index:200;-webkit-animation:none;animation:none;border-radius:0}
+@-webkit-keyframes pulsate-btn {
+0%{-webkit-transform:scale(0.6,0.6);transform:scale(0.6,0.6);opacity:1}
+100%{-webkit-transform:scale(1,1);transform:scale(1,1);opacity:0}
+}
+@keyframes pulsate-btn {
+0%{-webkit-transform:scale(0.6,0.6);transform:scale(0.6,0.6);opacity:1}
+100%{-webkit-transform:scale(1,1);transform:scale(1,1);opacity:0}
+}
+.navbar{margin-bottom:0;background-color:transparent;border:none;position:absolute;top:0;left:0;right:0;z-index:99}
+.navbar-brand{height:auto}
+.navbar-nav.navbar-center{position:absolute;left:50%;transform:translatex(-50%)}
+.navbar-nav.navbar-center a{font-size:20px;padding-left:6px;padding-right:6px}
+.navbar-default .navbar-nav>li>a{color:#fff;font-weight:500;padding-top:23px}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:focus{color:#2825d6}
+.time-count div{text-align:center}
+.time-entry{display:inline-block;min-width:120px;margin:15px;height:110px;padding:20px;box-shadow:1px 10px 20px rgba(0,0,0,.2);border-radius:4px;background:#fff;text-align:center;font-weight:400;color:#212121;font-size:16px;line-height:22px}
+.time-entry span{font-size:45px;line-height:45px;font-weight:500;display:block;color:#e74c3c;margin-bottom:10px}
+#about,#visit,#gallary,#sponsors,#contact{padding:100px 0}
+#about,#visit,#gallary,#contact{background:url(../img/subtle_dots.png) top center}
+#about .welcome-text{height:455px;display:table-cell;vertical-align:middle;padding-left:30px}
+#about h3{margin-top:0;margin-bottom:20px}
+#about img{border-radius:4px;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
+#about .img-2{position:absolute;top:-50px;left:-45px;border:8px solid #fff}
+#about .img-3{position:absolute;bottom:-70px;right:-20px;border:8px solid #fff}
+#counter{padding:100px 0;background-color:#F3F4F3;text-align:center}
+#clock{margin-bottom:30px}
+#visit .item{border-radius:4px;padding:30px;background-color:#fff;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
+#visit .item:hover,#program .program-item:hover{box-shadow:1px 10px 30px rgba(0,0,0,.3)}
+#visit img{margin-bottom:10px}
+#visit div[class*='col-']{padding-bottom:30px}
+#program{padding:100px 0;background-color:#f3f3f3}
+#program .time{font-size:16px;font-weight:400;color:#777;padding-top:22px}
+#program .program-wrapper{margin:0 100px}
+#program .program-item{position:relative;overflow:hidden;margin-bottom:15px;border-radius:4px;background-color:#fff;padding:5px;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
+#program .program-item img{float:left;margin-right:20px;margin-left:15px;border-radius:50%;border:1px solid #f3f3f3;padding:6px}
+#program .program-item h3{margin-top:0}
+#program .program-item .label{position:absolute;right:11px;top:11px;padding:6px 10px;background-color:#e74c3c;font-size:16px;font-weight:400;border-radius:4px}
+#program .description{margin-left:135px}
+#gallary div[class*='col-']{padding:2.5px}
+#gallary img{border-radius:4px}
+#gallary img:hover{opacity:.8;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}
+#gallary a{font-weight:500;color:#2825d6}
+#sponsors{text-align:center;background-color:#f3f3f3}
+#sponsors .sponsors-logo{vertical-align:middle;width:25%;height:100px;display:table-cell}
+#sponsors .sponsors-logo img{margin:0 auto}
+#contact .contact-info{width:350px;display:table-cell;vertical-align:middle;height:500px;padding-left:30px}
+#contact svg{font-size:42px;float:left;margin-right:20px}
+#contact h3{margin-top:0}
+#contact p{margin-bottom:25px;color:#777}
+#contact p:last-child{margin-bottom:0}
+#social{text-align:center;padding:30px 0;background-color:#F3F4F3}
+#social a{font-size:40px;color:#111;margin-right:10px}
+#social a:last-child{margin-right:0}
+footer{background-color:#111;padding:15px 0;text-align:center}
+footer p{color:#fff;margin-bottom:0}
+@media (max-width: 992px) {
+header h1{font-size:50px;line-height:65px}
+header .year{max-width:680px}
+header .year-2019{font-size:30px;line-height:40px;top:-46px;right:31px}
+#program .program-wrapper{margin:0}
+#sponsors p > br{display:none}
+}
+@media (max-width: 768px) {
+.navbar-brand img{width:200px}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:transparent}
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff}
+.navbar-toggle{margin-top:14px;border:none}
+.navbar-default .navbar-nav>li>a{padding-top:inherit;text-align:center}
+header h1{font-size:38px;line-height:48px}
+header h1 > br{display:none}
+header .year{width:100%}
+header .year-2019{font-size:24px;line-height:30px;top:-30px;right:15px}
+header .description{font-size:16px}
+header .d-t-l{padding:0 15px}
+header .d-t-l span{font-size:16px}
+header .btn-video{margin-top:20px;margin-bottom:30px}
+header .play-btn{width:80px;height:80px}
+header .btn{margin-right:0;padding:12px 65px}
+#program .btn{margin-right:0;padding:12px 20px}
+#program .program-item{padding:20px}
+#program .program-item .label{right:auto;left:5px;transform:rotate(-10deg);top: 12px}
+#program .description,#program .program-item img{margin-left:0;margin-bottom:0}
+#program .time{padding-top:8px}
+header .btn-2{margin-top:15px;padding:12px 46px}
+.title{font-size:28px;margin-bottom:40px}
+#counter,#about,#visit,#gallary,#sponsors,#contact,#program{padding:50px 0}
+#about img{margin-bottom:20px}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{padding:25px}
+#sponsors .sponsors-logo{height:80px}
+#contact .contact-info{padding-top:20px;height:auto}
+}
