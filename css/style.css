@@ -9,7 +9,7 @@ body{height:100%;font-family:'Gilroy',sans-serif;font-weight:400;font-size:18px;
 .btn-2{background-color:transparent;color:#fff;border:2px solid #fff}
 .btn-2:hover,.btn-2:active,.btn-2:focus{background-color:transparent;color:#fff;border:2px solid #fff;background-color:#ffffff29}
 header{position:relative;text-align:center;width:100%;height:100vh;color:#fff;background:url(../img/734683745683.jpg) top center fixed;background-size:cover}
-header .bg-overley{position:absolute;width:100%;height:100vh;top:0;left:0;background:rgba(0, 0, 0, 0.6) url(../img/pattern.png) 0 0 repeat}
+header .bg-overley{position:absolute;width:100%;height:100vh;top:0;left:0;background:rgba(0,0,0,0.6) url(../img/pattern.png) 0 0 repeat}
 header .content-wrapper{padding-left:0;display:table;position:absolute;top:0;left:0;width:100%;height:100vh}
 header .content-wrapper .content{text-align:center;display:table-cell;width:100%;height:100%;vertical-align:middle}
 header .d-t-l{margin-top:70px}
@@ -43,6 +43,7 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 .time-count div{text-align:center}
 .time-entry{display:inline-block;min-width:120px;margin:15px;height:110px;padding:20px;box-shadow:1px 10px 20px rgba(0,0,0,.2);border-radius:4px;background:#fff;text-align:center;font-weight:400;color:#212121;font-size:16px;line-height:22px}
 .time-entry span{font-size:45px;line-height:45px;font-weight:500;display:block;color:#e74c3c;margin-bottom:10px}
+#about,#contact{-webkit-clip-path:polygon(0% 42px,100% 0,100% 100%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 100%,0 100%);margin-top:-25px}
 #about,#visit,#gallary,#sponsors,#contact{padding:100px 0}
 #about,#visit,#gallary,#contact{background:url(../img/subtle_dots.png) top center}
 #about .welcome-text{height:455px;display:table-cell;vertical-align:middle;padding-left:30px}
@@ -50,13 +51,14 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #about img{border-radius:4px;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
 #about .img-2{position:absolute;top:-50px;left:-45px;border:8px solid #fff}
 #about .img-3{position:absolute;bottom:-70px;right:-20px;border:8px solid #fff}
-#counter{padding:100px 0;background-color:#F3F4F3;text-align:center}
+#counter{padding:100px 0;background-color:#F3F4F3;text-align:center;-webkit-clip-path:polygon(0 0,100% 0,100% 93%,0 100%);clip-path:polygon(0 0,100% 0,100% 93%,0 100%)}
 #clock{margin-bottom:30px}
+#visit{-webkit-clip-path:polygon(0 0,100% 0,100% 93%,0 100%);clip-path:polygon(0 0,100% 0,100% 93%,0 100%)}
 #visit .item{border-radius:4px;padding:30px;background-color:#fff;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
 #visit .item:hover,#program .program-item:hover{box-shadow:1px 10px 30px rgba(0,0,0,.3)}
 #visit img{margin-bottom:10px}
 #visit div[class*='col-']{padding-bottom:30px}
-#program{padding:100px 0;background-color:#f3f3f3}
+#program{padding:100px 0;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 98%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 98%,0 100%);margin-top:-30px}
 #program .time{font-size:16px;font-weight:400;color:#777;padding-top:22px}
 #program .program-wrapper{margin:0 100px}
 #program .program-item{position:relative;overflow:hidden;margin-bottom:15px;border-radius:4px;background-color:#fff;padding:5px;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
@@ -64,11 +66,12 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #program .program-item h3{margin-top:0}
 #program .program-item .label{position:absolute;right:11px;top:11px;padding:6px 10px;background-color:#e74c3c;font-size:16px;font-weight:400;border-radius:4px}
 #program .description{margin-left:135px}
+#gallary{-webkit-clip-path:polygon(0% 42px,100% 0,100% 95%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 95%,0 100%);margin-top:-30px}
 #gallary div[class*='col-']{padding:2.5px}
 #gallary img{border-radius:4px}
 #gallary img:hover{opacity:.8;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}
 #gallary a,#sponsors .sponsors-link{font-weight:500;color:#2825d6}
-#sponsors{text-align:center;background-color:#f3f3f3}
+#sponsors{text-align:center;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 93%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 93%,0 100%);margin-top:-30px}
 #sponsors .sponsors-logo{vertical-align:middle;width:25%;height:100px;display:table-cell}
 #sponsors .sponsors-logo img{margin:0 auto}
 #contact .contact-info{width:350px;display:table-cell;vertical-align:middle;height:500px;padding-left:30px}
@@ -106,7 +109,7 @@ header .play-btn{width:80px;height:80px}
 header .btn{margin-right:0;padding:12px 65px}
 #program .btn{margin-right:0;padding:12px 20px}
 #program .program-item{padding:20px}
-#program .program-item .label{right:auto;left:5px;transform:rotate(-10deg);top: 12px}
+#program .program-item .label{right:auto;left:5px;transform:rotate(-10deg);top:12px}
 #program .description,#program .program-item img{margin-left:0;margin-bottom:0}
 #program .time{padding-top:8px}
 header .btn-2{margin-top:15px;padding:12px 46px}
