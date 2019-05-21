@@ -73,7 +73,7 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #gallary img{border-radius:4px}
 #gallary img:hover{opacity:.8;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}
 #gallary a,#sponsors .sponsors-link{font-weight:500;color:#2825d6}
-#sponsors{text-align:center;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 93%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 93%,0 100%);margin-top:-30px}
+#sponsors{text-align:center;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 96%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 96%,0 100%);margin-top:-30px}
 #sponsors .sponsors-logo{vertical-align:middle;width:25%;height:100px;display:table-cell}
 #sponsors .sponsors-logo img{margin:0 auto}
 #contact .contact-info{width:350px;display:table-cell;vertical-align:middle;height:500px;padding-left:30px}
