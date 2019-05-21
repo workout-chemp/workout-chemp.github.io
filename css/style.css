@@ -1,6 +1,8 @@
 @font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-Light.ttf);font-weight:400}
 @font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-Bold.ttf);font-weight:500}
 @font-face{font-family:'Gilroy';src:url(../fonts/Gilroy-ExtraBold.ttf);font-weight:600}
+::selection {background: #ffb7b7}
+::-moz-selection {background: #ffb7b7}
 body{height:100%;font-family:'Gilroy',sans-serif;font-weight:400;font-size:18px;color:#111;overflow-x:hidden}
 .title{font-size:50px;font-weight:700;text-transform:uppercase;text-align:center;margin-top:0;margin-bottom:70px;position:relative}
 #counter .title:before,#about .title:before,#visit .title:before,#gallary .title:before,#sponsors .title:before,#program .title:before,#contact .title:before{position:absolute;content:"";width:100px;height:3px;bottom:-20px;background:#e74c3c;left:50%;margin-left:-50px}
