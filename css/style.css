@@ -75,6 +75,7 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #sponsors .sponsors-logo{vertical-align:middle;width:25%;height:100px;display:table-cell}
 #sponsors .sponsors-logo img{margin:0 auto}
 #contact .contact-info{width:350px;display:table-cell;vertical-align:middle;height:500px;padding-left:30px}
+#sponsors hr{border-color:#dadada}
 #contact svg{font-size:42px;float:left;margin-right:20px}
 #contact h3{margin-top:0}
 #contact p{margin-bottom:25px;color:#777}
@@ -107,6 +108,9 @@ header .d-t-l span{font-size:16px}
 header .btn-video{margin-top:20px;margin-bottom:30px}
 header .play-btn{width:80px;height:80px}
 header .btn{margin-right:0;padding:12px 65px}
+#visit{-webkit-clip-path: polygon(0 0,100% 0,100% 97%,0 100%);clip-path: polygon(0 0,100% 0,100% 97%,0 100%)}
+#program{-webkit-clip-path: polygon(0% 42px,100% 0,100% 98.5%,0 100%);clip-path: polygon(0% 42px,100% 0,100% 98.5%,0 100%)}
+#sponsors{-webkit-clip-path: polygon(0% 42px,100% 0,100% 96%,0 100%);clip-path: polygon(0% 42px,100% 0,100% 96%,0 100%)}
 #program .btn{margin-right:0;padding:12px 20px}
 #program .program-item{padding:20px}
 #program .program-item .label{right:auto;left:5px;transform:rotate(-10deg);top:12px}
