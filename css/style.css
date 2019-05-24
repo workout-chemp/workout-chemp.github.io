@@ -60,7 +60,7 @@ header .play-btn:hover::before{content:'';position:absolute;left:50%;top:50%;-we
 #visit .item:hover,#program .program-item:hover{box-shadow:1px 10px 30px rgba(0,0,0,.3)}
 #visit img{margin-bottom:10px}
 #visit div[class*='col-']{padding-bottom:30px}
-#program{padding:100px 0;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 98%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 98%,0 100%);margin-top:-30px}
+#program{padding:100px 0;background-color:#f3f3f3;-webkit-clip-path:polygon(0% 42px,100% 0,100% 98.5%,0 100%);clip-path:polygon(0% 42px,100% 0,100% 98.5%,0 100%);margin-top:-30px}
 #program .time{font-size:16px;font-weight:400;color:#777;padding-top:22px}
 #program .program-wrapper{margin:0 100px}
 #program .program-item{position:relative;overflow:hidden;margin-bottom:15px;border-radius:4px;background-color:#fff;padding:5px;box-shadow:1px 10px 20px rgba(0,0,0,.2)}
