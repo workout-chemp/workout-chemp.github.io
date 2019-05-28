@@ -101,7 +101,6 @@ header .year-2019{font-size:30px;line-height:40px;top:-46px;right:31px}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
 .navbar-toggle{margin-top:14px;border:none}
 .navbar-default .navbar-nav>li>a{padding-top:inherit;text-align:center}
-header,.loaded header{transform:none;-webkit-transition:none;-o-transition:none;transition:none}
 header h1{font-size:38px;line-height:48px}
 header h1 > br{display:none}
 header .year{width:100%}
