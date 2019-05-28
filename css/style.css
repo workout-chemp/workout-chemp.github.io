@@ -10,8 +10,7 @@ body{height:100%;font-family:'Gilroy',sans-serif;font-weight:400;font-size:18px;
 .btn:hover,.btn:active,.btn:focus{color:#fff;background-color:#1512c7;border:2px solid #1512c7}
 .btn-2{background-color:transparent;color:#fff;border:2px solid #fff}
 .btn-2:hover,.btn-2:active,.btn-2:focus{background-color:transparent;color:#fff;border:2px solid #fff;background-color:#ffffff29}
-header{position:relative;text-align:center;width:100%;height:100vh;color:#fff;background:url(../img/734683745683.jpg) top center;background-size:cover;transform:translate3d(0,0,0) scale(1.25)}
-.loaded header{transform:scale(1);transition:6.5s transform}
+header{position:relative;text-align:center;width:100%;height:100vh;color:#fff;background:url(../img/734683745683.jpg) top center fixed;background-size:cover}
 header .bg-overley{position:absolute;width:100%;height:100vh;top:0;left:0;background:rgba(0,0,0,0.6) url(../img/pattern.png) 0 0 repeat}
 header .content-wrapper{padding-left:0;display:table;position:absolute;top:0;left:0;width:100%;height:100vh}
 header .content-wrapper .content{text-align:center;display:table-cell;width:100%;height:100%;vertical-align:middle}
